@@ -1,0 +1,45 @@
+</html>
+<html>
+	<head></head>
+	<body bgcolor= "pink">
+	<center><h1 style="font-size:300%;">COLLEGE ADMISSION</h1></center>
+		
+		<form action="result" method="post">
+		{% csrf_token %}
+		
+			<table border="0" align="center">
+				<tr>
+					<th>SCORE</th>
+					<td><input type="text" name="num"></td>
+				</tr>
+				<tr>	
+					<th>DIPLOMA HOLDER:</th>
+				
+					<td><input type="text" name="var" /></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" align="center">
+							<button type="submit">Submit</button>
+					
+				</td>
+			
+			</table>
+		</form>
+		
+		
+		
+		
+	
+		<br>
+		<br>
+			<center> <strong>{{ text }}</strong></center>		
+		<div style="position: relative">
+			<p style="position:fixed;bottom: 0; text-align: center">@2020 Shilpi Sinha</p>
+		</div>
+	
+	
+	
+	</body>
+	
+</html>
